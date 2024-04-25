@@ -2,7 +2,9 @@
 
 This repository contains code for a project focused on fairness in Federated Data Clustering by using the concept of personalization.
 
+
 ## Project Structure
+```markdown
 project-root/
 │
 ├── main_algo/ # Main code implementation
@@ -19,7 +21,7 @@ project-root/
 |
 └── README.md # Project overview,usage instructions and datasets used
 
-
+```
 ## Main Code (`main_algo` Folder)
 
 The `main_algo` folder contains the primary codebase for our project, including the main algorithm implementation and utility functions.
@@ -37,13 +39,13 @@ The `algo_baseline` folder includes implementations of baseline algorithms used 
 
 We have utilized several datasets in this project. Below are the links to access each dataset:
 
-- [Adult]([link_to_dataset1](https://docs.google.com/spreadsheets/d/112OQQZbZ9ApnFiW986vSropX8Xa_akc5T1umAFLCawU/edit?usp=sharing))
-- [Bank]([link_to_dataset2](https://docs.google.com/spreadsheets/d/1qltcW9vjPd1AgobqVheQtymzrzn7TVQPYWWtvAuEcdc/edit?usp=sharing))
-- [CELEB-A]([link_to_dataset2](https://github.com/TalwalkarLab/leaf/tree/master/data/celeba))
-- [Diabetes]([link_to_dataset2](https://docs.google.com/spreadsheets/d/1AZ433lHb3Dhq5EJu2a3c-GHQIomSiq0yTCbw3nVphhs/edit?usp=sharing))
-- [FEMNIST]([link_to_dataset2](https://github.com/TalwalkarLab/leaf/tree/master/data/femnist))
-- [FMNIST]([link_to_dataset2](https://github.com/zalandoresearch/fashion-mnist/tree/master))
-- [WISDM]([link_to_dataset2](https://www.cis.fordham.edu/wisdm/dataset.php))
+- [Adult](https://docs.google.com/spreadsheets/d/112OQQZbZ9ApnFiW986vSropX8Xa_akc5T1umAFLCawU/edit?usp=sharing)
+- [Bank](https://docs.google.com/spreadsheets/d/1qltcW9vjPd1AgobqVheQtymzrzn7TVQPYWWtvAuEcdc/edit?usp=sharing)
+- [CELEB-A](https://github.com/TalwalkarLab/leaf/tree/master/data/celeba)
+- [Diabetes](https://docs.google.com/spreadsheets/d/1AZ433lHb3Dhq5EJu2a3c-GHQIomSiq0yTCbw3nVphhs/edit?usp=sharing)
+- [FEMNIST](https://github.com/TalwalkarLab/leaf/tree/master/data/femnist)
+- [FMNIST](https://github.com/zalandoresearch/fashion-mnist/tree/master)
+- [WISDM](https://www.cis.fordham.edu/wisdm/dataset.php)
 ## Usage
 
 To run the main algorithm, navigate to the `main_algo` directory and execute `p-FClus.py`. Ensure that all dependencies are installed before running the script.
